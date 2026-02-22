@@ -12,13 +12,13 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 /* Efeito hover profissional */
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
 /* IMAGEM */
@@ -37,14 +37,14 @@
 }
 
 .card {
-  text-decoration: none;   /* tira linha do link */
-  color: inherit;          /* mantém cor normal */
-  border: none;            /* remove borda */
+  text-decoration: none; /* tira linha do link */
+  color: inherit; /* mantém cor normal */
+  border: none; /* remove borda */
 }
 
 .card:focus,
 .card:active {
-  outline: none;           /* remove contorno azul */
+  outline: none; /* remove contorno azul */
 }
 
 /* DESKTOP */
@@ -76,8 +76,8 @@
 /* DESKTOP */
 @media (min-width: 768px) {
   .destaque {
-    grid-column: span 3;       /* ocupa largura toda */
-    flex-direction: row;       /* imagem esquerda, texto direita */
+    grid-column: span 3; /* ocupa largura toda */
+    flex-direction: row; /* imagem esquerda, texto direita */
     align-items: center;
   }
 
@@ -114,5 +114,5 @@
 
 /* SOMBRA PREMIUM */
 .destaque {
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
