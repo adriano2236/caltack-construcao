@@ -1,0 +1,19 @@
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  transition: 0.2s;
+}
+
+/* Só o ícone */
+.whatsapp img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+/* Hover leve */
+.whatsapp:hover {
+  transform: scale(1.08);
+}

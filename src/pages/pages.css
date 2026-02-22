@@ -1,0 +1,113 @@
+.page-content {
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  text-align: center;
+  background: transparent;
+}
+
+.page-bg {
+  min-height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== GRID PROFISSIONAL CENTRAL ===== */
+
+.obras {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+
+  max-width: 750px;
+  margin: 30px auto;
+  justify-items: center;
+}
+
+.obra {
+  width: 100%;
+  max-width: 230px;
+  background: transparent;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.obra img {
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.25s ease;
+}
+
+.obra img:hover {
+  transform: scale(1.03);
+}
+
+.trabalhos-section .story {
+  position: absolute;
+  width: 200px; /* maior área */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.4;
+
+  /* destaque visual */
+  backdrop-filter: blur(3px);
+  border-radius: 12px;
+}
+
+.trabalhos-section .story h3 {
+  font-size: 36px;
+  margin-bottom: 14px;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+
+  color: #d4af37 !important; /* 👈 força dourado */
+
+  text-shadow:
+    0 0 4px rgba(212, 175, 55, 0.8),
+    0 0 10px rgba(212, 175, 55, 0.4),
+    0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* posições */
+
+.trabalhos-section .story p {
+  font-size: 18px;
+  color: #f5e6b3; /* dourado claro suave */
+
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== POSICIONAMENTO AJUSTADO ===== */
+
+.trabalhos-section {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Esquerda */
+.trabalhos-section .left {
+  position: absolute;
+  left: 80px; /* mais para dentro */
+  top: 55%; /* um pouco mais abaixo */
+  transform: translateY(-50%);
+}
+
+/* Direita */
+.trabalhos-section .right {
+  position: absolute;
+  right: 80px; /* mais para dentro */
+  top: 55%; /* alinhado */
+  transform: translateY(-50%);
+}
