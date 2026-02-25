@@ -111,3 +111,22 @@
   top: 55%; /* alinhado */
   transform: translateY(-50%);
 }
+
+@media (max-width: 768px) {
+  .trabalhos-section .left,
+  .trabalhos-section .right {
+    position: static; /* 👈 remove absolute */
+    transform: none;
+    left: auto;
+    right: auto;
+    top: auto;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .trabalhos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
