@@ -32,10 +32,18 @@ function Footer() {
           <a href="https://wa.me/5554999999999" target="_blank">
             <img src="/icon-whatsapp.png" alt="WhatsApp" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/accounts/login/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/icon-instagram.png" alt="Instagram" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.facebook.com/login/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/icon-facebook.png" alt="Facebook" />
           </a>
         </div>
